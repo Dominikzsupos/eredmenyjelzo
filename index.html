@@ -16,8 +16,17 @@
                     <p id="">Csapat 1</p>
                 </div>
              <!-- Ha az időre rányom akkor álljon meg/induljon el az idő, meg egy római 1és2 legyen a félidőket jelezve -->
-                <div style="flex-grow: 4;">
-                    <h3 id="ido">I. 30:00</h3>
+                <div style="flex-grow: 4;" onclick="play()">
+                    <h3>
+
+                        <span id="roma" >I</span>
+                        .
+                        <span id="perc" >0</span>
+                        :
+                        <span id="masperc" >0</span>
+
+                    </h3>
+        
                 </div>
 
                 <div style="flex-grow: 3;">
@@ -45,5 +54,8 @@
         </div>
 
    </div>
+
+
+   <script src="java.js"></script>
 </body>
 </html>
