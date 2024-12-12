@@ -1,0 +1,31 @@
+body,html{
+   
+    height: 100%;
+   
+    
+}
+.picture{
+    background-image: url(palya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    
+  }
+
+.flex-container > div {
+    background-color: white;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+.meret{
+    width: 55%;
+    margin: auto;
+}
+
