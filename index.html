@@ -8,12 +8,11 @@
 </head>
 <body>
    <div class="picture">
-
+    <form>
         <div class="meret">
-
             <div class="flex-container">
                 <div style="flex-grow: 3;">
-                    <p id="">Csapat 1</p>
+                    <label for="">Csapat 1</label>
                 </div>
              <!-- Ha az időre rányom akkor álljon meg/induljon el az idő, meg egy római 1és2 legyen a félidőket jelezve -->
                 <div style="flex-grow: 4;" onclick="play()">
@@ -27,10 +26,13 @@
 
                     </h3>
         
+                <div style="flex-grow: 4;">
+                    <label for=""></label><!--Idő helye-->
+                    <label for=""></label> <!--Plussz idő helye-->
                 </div>
 
                 <div style="flex-grow: 3;">
-                    <p id="">Csapat 2</p>
+                    <label id="">Csapat 2</label>
                 </div>
             </div>
 
@@ -39,20 +41,21 @@
 
                 <div  style="flex-grow:4;">
                     <p>Adja meg az első csapat nevét</p>
-                    <input id="" type="text" oninput="">
+                    <input id="" type="text" >
+                    <button id="" type="button" onclick="">véglegesítés</button>
                 </div>
              
                 <!--Fogalmam sincs hogyan kell közte helyet csinálni majd kitalálom, az id-t te írd be az összesnél mert te használod -->
 
                 <div style="flex-grow: 3;">
                     <p>Adja meg az második csapat nevét</p>
-                    <input id="" type="text" oninput="">
+                    <input id="" type="text" >
+                    <button type="button" onclick="" id="">véglegesítés</button>
                 
                 </div>
             </div>
-
         </div>
-
+    </form>
    </div>
 
 
