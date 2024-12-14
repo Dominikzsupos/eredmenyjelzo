@@ -17,40 +17,25 @@ body,html{
   }
 
 .flex-container > div {
-    background-color: white;
+    background-color: rgb(234, 202, 75);
+    opacity: 90%;
     color: black;
     margin: 10px;
     text-align: center;
     line-height: 40px;
     font-size: 30px;
+    border-radius: 10%;
 }
 .meret{
     width: 55%;
     margin: auto;
 }
-.gomb > div {
-    background-color: white;
-    color: black;
-    margin: 10px;
-    text-align: center;
-    line-height: 10px;
-    font-size: 30px;
-}
-.gomb {
-    display: flex;
-    align-items: center;
-    
-  }
-.gombhely{
-    margin-left: 28.5%;
-    height: 20%;
-    width: 3%;
-    font-size: large;
-}
+
 .gombhely1{
-    margin-left: 30%;
+    margin-left: 29%;
     font-size: large;
 }
 .gombhely2{
     font-size: large;
+    
 }
