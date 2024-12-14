@@ -8,14 +8,20 @@
 </head>
 <body>
    <div class="picture">
-    <form>
+
         <div class="meret">
+
             <div class="flex-container">
-                <div style="flex-grow: 3;">
-                    <label for="">Csapat 1</label>
+                <div style="flex-grow: 2;">
+                   <h3> <label for="">Csapat 1</label></h3>
                 </div>
+
+                <div style="flex-grow: 1;">
+                   <h3> <label for="">0</label> <!--Gólszám--> </h3>
+                </div>
+
              <!-- Ha az időre rányom akkor álljon meg/induljon el az idő, meg egy római 1és2 legyen a félidőket jelezve -->
-                <div style="flex-grow: 4;" onclick="play()">
+                <div style="flex-grow: 3;">
                     <h3>
 
                         <span id="roma" >I</span>
@@ -25,24 +31,33 @@
                         <span id="masperc" >0</span>
 
                     </h3>
-        
-                <div style="flex-grow: 4;">
-                    <label for=""></label><!--Idő helye-->
-                    <label for=""></label> <!--Plussz idő helye-->
                 </div>
 
-                <div style="flex-grow: 3;">
-                    <label id="">Csapat 2</label>
+                <div style="flex-grow: 1;">
+                   <h3> <label for="">0</label><!--Gólszám--> </h3>
+                </div>
+
+                <div style="flex-grow: 2;">
+                   <h3> <label id="">Csapat 2</label></h3>
                 </div>
             </div>
 
+            <div>
+                
+              
+                <button class="gombhely" type="button" id="" onclick="">+</button>
+                <button class="gombhely2" type="button" id="" onclick="">-</button>
+            
+                <button class="gombhely1" type="button" id="" onclick="">+</button>
+                <button class="gombhely2" type="button" id="" onclick="">-</button>
+            </div>
 
             <div class="flex-container">
 
                 <div  style="flex-grow:4;">
                     <p>Adja meg az első csapat nevét</p>
-                    <input id="" type="text" >
-                    <button id="" type="button" onclick="">véglegesítés</button>
+                    <input id="" type="text">
+                    <button type="button" onclick="" id="">véglegesítés</button>
                 </div>
              
                 <!--Fogalmam sincs hogyan kell közte helyet csinálni majd kitalálom, az id-t te írd be az összesnél mert te használod -->
@@ -54,11 +69,10 @@
                 
                 </div>
             </div>
+
         </div>
-    </form>
+
    </div>
-
-
    <script src="java.js"></script>
 </body>
 </html>
