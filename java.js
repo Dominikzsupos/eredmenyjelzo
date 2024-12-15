@@ -67,12 +67,12 @@ function kiv2(){
 }
 
 
-
+let time
 
 function play(){
 
     if (bool == false) {
-        let time = setInterval(indit, 1000)
+        time = setInterval(indit, 1000)
         bool = true
     }
     else{
@@ -80,18 +80,15 @@ function play(){
         bool = false
     }
 
-
 }
 
-    let perc = 0
-    let masperc = 1
+    let perc = 30
+    let masperc = 0
 
 function indit(){
-console.log(1)
-
     
-
-    if(document.getElementById("roma").innerHTML != "I" && perc == 0)
+    
+    if(document.getElementById("roma").innerHTML != "I" && perc == 0 && masperc == 0)
     {
         clearInterval(time)
     }
@@ -122,4 +119,7 @@ function all(){
 
 }
 
+function plusido(){
+    let 
+}
 
